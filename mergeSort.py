@@ -7,7 +7,6 @@ def mergeSort(array, left, right, demoArray, sleeptime):
         middle = (left + right) // 2
         mergeSort(array, left, middle, demoArray, sleeptime)
         mergeSort(array, middle + 1, right, demoArray, sleeptime)
-        print("###")
         merge(array, left, middle, right, demoArray, sleeptime)
 
 
